@@ -1,84 +1,9 @@
-# thisdict = {
-#     "brand": "Ford",
-#     "model": "Mustang",
-#     "year": 1964
-# }
-
-# thisdict["year"] = 1974
-
-# print(thisdict["brand"])
-# print(thisdict["model"])
-# print(thisdict["year"])
-
-# person1 = {
-#     "firstName": "ocean",
-#     "lastName": "Academy",
-#     "year": 2005,
-#     "address": "pondy",
-# }
-
-# person2 = {
-#     "firstName": "Sumi",
-#     "lastName": "Krishnamoorthy",
-#     "year": 2004,
-#     "address": "kerala",
-# }
-
-# person1["fullName"] = person1["firstName"] + " " + person1["lastName"]
-# person2["fullName"] = person2["firstName"] + " " + person2["lastName"]
-
-# print(person1)
-# print(person1["firstName"])
-# print(person1["lastName"])
-# print(person1["fullName"])
-# print()
-# print(person2)
-# print(person2["firstName"])
-# print(person2["lastName"])
-# print(person2["fullName"])
-
-
-# person = [
-#     {
-#         "firstName": "ocean",
-#         "lastName": "Academy",
-#         "year": 2005,
-#         "address": "pondy",
-#     },
-#     {
-#         "firstName": "Sumi",
-#         "lastName": "Krishnamoorthy",
-#         "year": 2004,
-#         "address": "kerala",
-#     }
-# ]
-
-
-# person[0]["fullName"] = person[0]["firstName"] + " " + person[0]["lastName"]
-# person[1]["fullName"] = person[1]["firstName"] + " " + person[1]["lastName"]
-
-
-# print(person[0])
-# print()
-# print(person[1])
-
-# print(person1)
-# print(person1["firstName"])
-# print(person1["lastName"])
-# print(person1["fullName"])
-# print()
-# print(person2)
-# print(person2["firstName"])
-# print(person2["lastName"])
-# print(person2["fullName"])
-
-
 people = [
     {
         "firstName": "ocean",
         "lastName": "Academy",
         "year": 2005,
-        "address": "pondy",
+        "address": "pondy"
     },
     {
         "firstName": "John",
@@ -151,3 +76,8 @@ people = [
 # Total count of people in the list
 total_people = len(people)
 print("Total People:", total_people)
+
+for i in range(total_people):
+    people[i]["fullName"] = people[i]["firstName"] + \
+        " " + people[i]["lastName"]
+    print(people[i], "\n")

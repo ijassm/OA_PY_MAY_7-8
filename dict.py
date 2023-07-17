@@ -151,3 +151,15 @@ people = [
 # Total count of people in the list
 total_people = len(people)
 print("Total People:", total_people)
+
+
+# Input
+# hello
+
+# Output
+# {
+#     h: 1,
+#     e : 1,
+#     l : 2,
+#     o : 1
+# }

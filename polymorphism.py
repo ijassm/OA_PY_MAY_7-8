@@ -83,9 +83,11 @@
 #         super().__init__("Square")
 #         self.length = length
 
+# overiding method
 #     def area(self):
 #         return self.length**2
 
+# overiding method
 #     def fact(self):
 #         return "Squares have each angle equal to 90 degrees."
 
@@ -95,6 +97,7 @@
 #         super().__init__("Circle")
 #         self.radius = radius
 
+#     # overiding method
 #     def area(self):
 #         return pi*self.radius**2
 
@@ -124,7 +127,7 @@
 
 
 # def sum(a, b, c=None):
-#     if (not(c)):
+#     if (not (c)):
 #         return a + b
 #     return a + b + c
 
